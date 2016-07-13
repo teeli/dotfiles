@@ -35,6 +35,9 @@ fi;
 # Install `wget` with IRI support.
 brew install wget --with-iri
 
+# for one of those days
+brew install thefuck
+
 # Install RingoJS and Narwhal.
 # Note that the order in which these are installed is important;
 # see http://git.io/brew-narwhal-ringo.
