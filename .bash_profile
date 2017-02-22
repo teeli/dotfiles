@@ -1,5 +1,10 @@
-# Add `~/bin` to the `$PATH`
-export PATH="$HOME/bin:$PATH";
+# Add `~/bin` to the `$PATH`m add phpstorm to path, add python to path
+export PATH="$HOME/bin:$PATH:/Applications/PhpStorm.app/Contents/MacOS/phpstorm";
+export PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:$PATH"
+
+source ~/wp-completion.bash
+source ~/git-completion.bash
+
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
